@@ -1,11 +1,16 @@
 public class Methods {
     public static void main(String [] args) {
-        System.out.println((mathIt(3,4)));
+        userInfo("hi",3,"January 1st, 2026",4);
+        System.out.println("End of Prog");
     }
 
 
-    public static int mathIt(int n, int m){
-        return n + m;
+    public static void userInfo (String name, int age, String BD, int ID){
+        System.out.println(name + spacer() + spacer() + BD + spacer() + ID);
+    }
+
+    public static String spacer(){
+        return " ";
     }
 
 
