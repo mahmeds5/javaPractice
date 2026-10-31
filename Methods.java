@@ -1,23 +1,11 @@
 public class Main {
-    public static void main() {
-        System.out.println("Some Text!"); //No method used
-        lineBreak();
-        System.out.println("Here is a text after a line break.");
-        text();
-
-        for (int i = 0; i < 3; i++){
-            lineBreak();
-            text();
-        }
-
+    public static void main(String [] args) {
+        System.out.println((mathIt(3,4)));
     }
 
-    public static void lineBreak(){
-        System.out.println();
-    }
 
-    public static void text(){
-        System.out.println("Some Text");
+    public static int mathIt(int n, int m){
+        return n + m;
     }
 
 
