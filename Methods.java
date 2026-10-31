@@ -1,4 +1,4 @@
-public class Main {
+public class Methods {
     public static void main() {
         System.out.println("Some Text!"); //No method used
         lineBreak();
