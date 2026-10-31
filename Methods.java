@@ -1,4 +1,4 @@
-public class Main {
+public class Methods {
     public static void main(String [] args) {
         System.out.println((mathIt(3,4)));
     }
