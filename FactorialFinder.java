@@ -28,8 +28,20 @@ public class FactorialFinder {
 		}
 		
 
+		//Using Recursive Method
+		factorial(3); //Should equal 6. 
 		
 		
-		
-	}	
+	}
+	
+	//Recursion!
+	public static int factorial (int n){
+        int f = 1;
+        if (n > 0){
+            f = f * n * factorial(n-1);
+        }
+        return f;
+    }
+
+	
 }	
