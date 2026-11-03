@@ -1,7 +1,8 @@
 public class findMax {
     public static void main (String[] args){
 
-        write(findMax(-134,222,1123));
+        write(findMax(5,5,1123));
+        write(findMin(123,2,2));
 
     }
 
@@ -9,8 +10,16 @@ public class findMax {
         return findMax(findMax(n1,n2),n3);
     }
 
+    public static int findMin (int n1, int n2, int n3){
+        return findMin(findMin(n1,n2),n3);
+    }
+
     public static int findMax (int n1, int n2){
         if (n1 > n2) return  n1; else return n2;
+    }
+
+    public static int findMin (int n1, int n2){
+        if (n1 < n2) return  n1; else return n2;
     }
 
     public static void write (String t){
