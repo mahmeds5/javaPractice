@@ -1,7 +1,10 @@
-public class learningClasses {
-    int x = 5;
-    public static void main (String[] args){
-        Main myObject = new Main();
-        System.out.println(myObject.x);
+public class Main {
+    public static class Second {
+        int x = 5;
+    }
+    public static void main() {
+        Second obj = new Second();
+        obj.x = 10;
+        System.out.println(obj.x);
     }
 }
